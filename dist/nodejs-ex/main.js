@@ -233,7 +233,7 @@ module.exports = "/*!\n * Bootstrap v3.3.7 (http://getbootstrap.com)\n * Copyrig
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n  <h4> This is demo of d3.js </h4>\n  <div id=\"d3-base\"></div>\n</div>\n<div>\n  <h4> This is demo if underscore.js </h4>\n  <div>[{{ aa }}] * 3 => [{{bb}}]</div>\n</div>\n<div>\n  <h4> This is demo of particle.js </h4>\n  <div id=\"particles-js\">  </div>\n</div>\n<div>\n  <h4> This is test of jQuery </h4>\n  <div id=\"jquery\"></div>\n</div>\n<div>\n  <h4> This is test of awesome font </h4>\n  <i class=\"fa fa-camera-retro fa-lg\"></i> Font large\n</div>\n<div>\n  <h4> This is a test for bootstrap </h4>\n  <button class=\"btn btn-success\" width=\"50px\" height=\"50px\" (click)=\"goBack()\"> go back</button>\n</div>\n\n<div> Angular could load fastclick.js in initlization </div>\n"
+module.exports = "<div>\n  <h4> This is demo of d3.js </h4>\n  <div id=\"d3-base\"></div>\n</div>\n<div>\n  <h4> This is demo if underscore.js </h4>\n  <div>[{{ aa }}] * 3 => [{{bb}}]</div>\n</div>\n<div>\n  <h4> This is demo of particle.js </h4>\n  <div id=\"particles-js\">  </div>\n</div>\n<div>\n  <h4> This is test of jQuery </h4>\n  <div id=\"jquery\"></div>\n</div>\n<div>\n  <h4> This is test of awesome font </h4>\n  <i class=\"fa fa-camera-retro fa-lg\"></i> Font large\n</div>\n\n<h5> Angular could load fastclick.js in initlization </h5>\n<div>\n  <h4> This is a test for bootstrap </h4>\n  <button class=\"btn btn-success\" width=\"50px\" height=\"50px\" (click)=\"goBack()\"> go back</button>\n</div>\n"
 
 /***/ }),
 
