@@ -1,0 +1,25 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+rect {
+   background-color: steelblue;
+}
+
+rect:hover {
+   background-color: orange;
+}
+
+ul {
+        height: 75px;
+        border: 1px solid gray;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+#particles-js {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: 0;
+}
+

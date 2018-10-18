@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import {MessageService} from './services/message.service';
 
@@ -8,6 +9,12 @@ import {MessageService} from './services/message.service';
 })
 
 export class MessageComponent implements OnInit {
-  constructor(private messageService: MessageService) { }
+
+  goBack(): void {
+    this.location.back()
+  }
+
+  constructor(private messageService: MessageService,
+              private location: Location) { }
   ngOnInit() { }
 }

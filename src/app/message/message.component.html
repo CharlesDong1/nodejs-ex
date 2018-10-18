@@ -4,5 +4,6 @@
   <button class="message_clear"
           (click)="messageService.clear()">clear</button>
   <div *ngFor='let message of messageService.messages'> {{message}} </div>
+  <button (click)="goBack()"> go back </button>
 
 </div>
